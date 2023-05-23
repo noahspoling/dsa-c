@@ -1,36 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-/*
-void sort(char str[]) {
-	//gets char array length
-	int size = strlen(str);
 
-	//create empty instance of char array
-	char out[size];
 
-	printf("Size: %d\nString: %s\n", size, str);
-	//outside loop descreases by 1 from array size so nested loop doesn't read the already sorted elements
-	for (int j = size - 1; j >= 1; j--) {
-		for (int i = 0; i < j - 1; i++) {
-			char currentChar = str[i];
-			char nextChar = str[i+1];
-			printf("currentChar: %c\nNextChar: %c\n", currentChar, nextChar);
-			printf("Output: %s\ni: %d\nj: %d\n", out, i, j);
-			if(currentChar < nextChar) {
-				printf("If current is less than\n");
-				out[i] = nextChar;
-				out[i+1] = currentChar;
-			}
-            		else {
-                		out[i] = nextChar;
-				out[i+1] = currentChar;        
-        		}
-		}
-	}
-	*str = out;
-	printf("Output: %s\n", str);
-}
-*/
 
 /**
  * function to appened two strings

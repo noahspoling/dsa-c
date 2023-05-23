@@ -5,3 +5,6 @@
 /mathfuncs.o
 /test.0
 /test.o
+sort.0
+.gitignore
+sort.o
